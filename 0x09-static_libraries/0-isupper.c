@@ -2,7 +2,6 @@
 /**
  * _isupper - uppercase  or capital letters
  * @c: character to examine
- * Return: 0 or 1
  */
 int _isupper(int c)
 {

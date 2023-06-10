@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _atoi - convert string to an integer.
- * @s:  string to  use not string
+ * @s:  string to  use not integer
  * Return: integer.
  */
 int _atoi(char *s)
