@@ -7,13 +7,14 @@
  * @grid: 2 dimensional  grid
  * @height: height of grid
  */
+
 void free_grid(int **grid, int height)
 {
-	int u;
+	int i;
 
-	for (u = 0; < height; u++)
+	for (i = 0; i < height; i++)
 	{
-		free(grid[u]);
+		free(grid[i]);
 	}
 	free(grid);
 }
